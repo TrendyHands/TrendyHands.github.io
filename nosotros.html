@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nosotros - Trendy Hands</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #f5f0e1;
+      font-family: 'Poppins', sans-serif;
+    }
+    .section {
+      padding: 3rem 0;
+    }
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: #8c5e3c;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .section-content {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 400px) {
+      main {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      }
+
+      .cart-overlay {
+        width: 100vw;
+      }
+
+    
+      .product-card {
+        font-size: 14px;
+      }
+
+      .cart-item img {
+        width: 48px;
+        height: 48px;
+      }
+
+      .cart-header h2 {
+        font-size: 1.1rem;
+      }
+
+      .checkout-btn {
+        font-size: 1rem;
+      }
+    }
+
+    .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav {
+            position: relative;
+        }
+
+        .nav-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav-list li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-toggle {
+            display: none;
+            font-size: 1.5rem;
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+       
+
+        .cart-count {
+            margin-left: 5px;
+        }
+
+    
+        @media (max-width: 768px) {
+            .nav-list {
+                display: none;
+                position: absolute;
+                right: 0;
+                top: 100%;
+                background-color: #444;
+                flex-direction: column;
+                width: 200px;
+                z-index: 10;
+            }
+
+            .nav-list.active {
+                display: flex;
+            }
+
+            .nav-toggle {
+                display: block;
+            }
+        }
+  </style>
+</head>
+<body>
+  
+  <header class="sticky top-0 bg-[#f5f0e1] shadow-md z-50">
+    <div class="flex justify-between items-center max-w-7xl mx-auto px-4 py-3">
+      <div class="text-2xl font-bold text-[#8c5e3c]">Trendy Hands</div>
+      <nav class="hidden md:flex space-x-8 text-lg">
+        <a href="index.html" class="text-[#704a33] hover:text-[#8c5e3c] transition">Productos</a>
+        <a href="nosotros.html" class="text-[#704a33] hover:text-[#8c5e3c] transition">Nosotros</a>
+        <a href="contacto.html" class="text-[#704a33] hover:text-[#8c5e3c] transition">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+ <a style="justify-content: left;" href="javascript:history.back()">
+  <img src="flecha.png" alt="Volver Atrás" style="width: 24px; height: 24px;">
+</a>
+
+  <section style="text-align: center;" class="section">
+    <h2 class="section-title">Sobre Nosotros</h2>
+    <div class="section-content">
+      <p>En <b>Trendy Hands</b>, nos dedicamos a ofrecer productos artesanales únicos, creados con mucho amor y dedicación. Cada uno de nuestros productos es elaborado a mano por artistas locales, asegurando la calidad y originalidad de lo que ofrecemos.</p>
+      <br>
+      <p>Nuestra <b>misión</b> es brindar a nuestros clientes productos que no solo sean bellos, sino también funcionales y duraderos. Creemos en la importancia de apoyar el trabajo artesanal y queremos compartir esa pasión con el mundo.</p>
+      <br>
+      <p>Explora nuestra <b>tienda </b>y descubre lo que tenemos para ti, ¡te aseguramos que te enamorarás de nuestras creaciones!</p>
+    </div>
+  </section>
+
+  <footer style="text-align: justify;">
+    &copy; 2025 TrendyHands. Todos los derechos reservados. | 📌C/Luis amiama Tio esq. C/51
+  </footer>
+  
+</body>
+</html>

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>TrendyHands</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+ 
+  </style>
+</head>
+<body>
+
+ <header>
+    <div class="logo" tabindex="0">TrendyHands</div>
+    <nav class="nav">
+        <button class="nav-toggle" aria-label="Abrir menú de navegación" tabindex="0">☰</button>
+        <ul class="nav-list">
+            <li><a href="#products" tabindex="0">Productos</a></li>
+            <li><a href="nosotros.html" tabindex="0">Nosotros</a></li>
+            <li><a href="contacto.html" tabindex="0">Contacto</a></li>
+        </ul>
+    </nav>
+    <button class="cart-toggle-btn" aria-label="Abrir carrito de compras" title="Carrito" tabindex="0">
+        <svg class="cart-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M7 18c-1.10457 0-2 .8954-2 2s.89543 2 2 2 2-.8954 2-2-.89543-2-2-2zm10 0c-1.1046 0-2 .8954-2 2s.8954 2 2 2 2-.8954 2-2-.8954-2-2-2zm-12.764-2.023L5.309 5H19v2H6.96l-1.724 9.252zM5 2h2l.68 3H19v2H7.377L6.086 4H3V2z"/>
+        </svg>
+        <span class="cart-count" aria-live="polite" aria-atomic="true" aria-relevant="text">0</span>
+    </button>
+</header>
+<script>
+    const toggleButton = document.querySelector('.nav-toggle');
+    const navList = document.querySelector('.nav-list');
+
+    toggleButton.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    });
+</script>
+<!--
+<DIV>
+      <H1 >BISUTERIA</H1>
+    </DIV>
+
+
+<center>
+<DIV>
+      <H1 >PINTURA</H1>
+    </DIV>
+</center>
+
+<center>
+<DIV>
+      <H1 >VELAS</H1>
+    </DIV>
+</center>
+
+<center>
+<DIV>
+      <H1 >JABONES</H1>
+    </DIV>
+</center>
+
+<center>
+<DIV>
+      <H1 >FLORES</H1>
+    </DIV>
+</center>
+-->
+  <main id="products" tabindex="0" aria-label="Listado de productos">
+    
+
+
+
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/1.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">700 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/2.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">599 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+    
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/3.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">850 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/4.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">3500 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/5.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/6.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/7.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/8.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/9.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/10.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/11.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/12.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/13.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/14.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/15.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/16.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+  <article class="product-card" tabindex="0" aria-label="Producto: PRODUCTOS, precio 59.99 dólares">
+      <img src="imagenes/17.jpeg" alt="PRODUCTOS" class="product-image" />
+      <div class="product-info">
+        <h3 class="product-name">PRODUCTOS</h3>
+        <div class="product-price">8000 RD$</div>
+        <button class="add-to-cart-btn" aria-label="Agregar PRODUCTOS al carrito">Agregar al carrito</button>
+      </div>
+    </article>
+
+
+  </main>
+
+  <aside class="cart-overlay" aria-label="Carrito de compras" aria-hidden="true" role="dialog">
+    <div class="cart-header">
+      <h2>Tu carrito</h2>
+      <button class="close-cart-btn" aria-label="Cerrar carrito">&times;</button>
+    </div>
+    <div class="cart-items" tabindex="0">
+
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total" aria-live="polite" aria-atomic="true">Total: 0,00 RD$</div>
+      <button class="checkout-btn" aria-label="Finalizar compra">Finalizar compra</button>
+    </div>
+  </aside>
+
+  <footer>
+    &copy; 2025 TrendyHands. Todos los derechos reservados. | 📌C/Luis amiama Tio esq. C/51
+  </footer>
+
+  <script>
+    (() => {
+      const cartToggleBtn = document.querySelector('.cart-toggle-btn');
+      const cartOverlay = document.querySelector('.cart-overlay');
+      const closeCartBtn = document.querySelector('.close-cart-btn');
+      const cartItemsContainer = document.querySelector('.cart-items');
+      const cartCount = document.querySelector('.cart-count');
+      const cartTotalDisplay = document.querySelector('.cart-total');
+      const checkoutBtn = document.querySelector('.checkout-btn');
+      const addToCartButtons = document.querySelectorAll('.add-to-cart-btn');
+
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+      function formatPrice(num) {
+        return num.toFixed(2).replace('.', ',') + ' RD$';
+      }
+
+      function saveCart() {
+        localStorage.setItem('cart', JSON.stringify(cart));
+      }
+
+      function calculateTotal() {
+        return cart.reduce((sum, item) => sum + item.price * item.qty, 0);
+      }
+
+      function updateCartCount() {
+        const totalQty = cart.reduce((sum, item) => sum + item.qty, 0);
+        cartCount.textContent = totalQty;
+        if(totalQty === 0) {
+          cartCount.style.display = 'none';
+        } else {
+          cartCount.style.display = 'inline-block';
+        }
+      }
+
+      function renderCart() {
+        cartItemsContainer.innerHTML = '';
+        if(cart.length === 0) {
+          cartItemsContainer.innerHTML = '<p>Tu carrito está vacío.</p>';
+          checkoutBtn.disabled = true;
+          checkoutBtn.style.opacity = '0.6';
+          return;
+        }
+        checkoutBtn.disabled = false;
+        checkoutBtn.style.opacity = '1';
+
+        cart.forEach(item => {
+          const cartItem = document.createElement('div');
+          cartItem.classList.add('cart-item');
+
+          cartItem.innerHTML = `
+            <img src="${item.image}" alt="${item.name}" />
+            <div class="cart-item-details">
+              <div class="cart-item-name">${item.name}</div>
+              <div class="cart-item-price">${formatPrice(item.price)}</div>
+              <div class="cart-item-qty" aria-label="Controles de cantidad para ${item.name}">
+                <button class="qty-btn decrease" aria-label="Disminuir cantidad de ${item.name}">−</button>
+                <div class="qty-value" aria-live="polite" aria-atomic="true">${item.qty}</div>
+                <button class="qty-btn increase" aria-label="Incrementar cantidad de ${item.name}">+</button>
+              </div>
+            </div>
+            <button class="remove-item-btn" aria-label="Eliminar ${item.name} del carrito">&times;</button>
+          `;
+
+          cartItem.querySelector('.qty-btn.decrease').addEventListener('click', () => {
+            if(item.qty > 1) {
+              item.qty--;
+              saveCart();
+              renderCart();
+              updateCartCount();
+              updateTotal();
+            } else {
+              removeItem(item.id);
+            }
+          });
+
+          cartItem.querySelector('.qty-btn.increase').addEventListener('click', () => {
+            item.qty++;
+            saveCart();
+            renderCart();
+            updateCartCount();
+            updateTotal();
+          });
+
+          
+          cartItem.querySelector('.remove-item-btn').addEventListener('click', () => {
+            removeItem(item.id);
+          });
+
+          cartItemsContainer.appendChild(cartItem);
+        });
+      }
+
+      
+      function updateTotal() {
+        cartTotalDisplay.textContent = 'Total: ' + formatPrice(calculateTotal());
+      }
+
+     
+      function removeItem(id) {
+        cart = cart.filter(item => item.id !== id);
+        saveCart();
+        renderCart();
+        updateCartCount();
+        updateTotal();
+      }
+
+      
+      function addItemToCart(product) {
+        const foundItem = cart.find(item => item.id === product.id);
+        if(foundItem) {
+          foundItem.qty++;
+        } else {
+          cart.push({...product, qty: 1});
+        }
+        saveCart();
+        renderCart();
+        updateCartCount();
+        updateTotal();
+      }
+
+     
+      function toggleCart() {
+        const isOpen = cartOverlay.classList.contains('open');
+        cartOverlay.setAttribute('aria-hidden', isOpen ? 'true' : 'false');
+        cartOverlay.classList.toggle('open');
+        if(!isOpen) {
+          cartOverlay.querySelector('.cart-items').focus();
+        }
+      }
+
+     
+      checkoutBtn.addEventListener('click', () => {
+        if(cart.length === 0) {
+          alert('Tu carrito está vacío.');
+          return;
+        }
+        alert(`¡Gracias por tu compra! El total es: ${formatPrice(calculateTotal())}`);
+        cart = [];
+        saveCart();
+        renderCart();
+        updateCartCount();
+        updateTotal();
+        toggleCart();
+      });
+
+    
+      closeCartBtn.addEventListener('click', () => {
+        toggleCart();
+      });
+
+     
+      cartToggleBtn.addEventListener('click', () => {
+        toggleCart();
+      });
+
+      
+      addToCartButtons.forEach((button, index) => {
+        button.addEventListener('click', (e) => {
+          const productCard = e.target.closest('.product-card');
+          const name = productCard.querySelector('.product-name').textContent;
+         
+          const priceText = productCard.querySelector('.product-price').textContent.replace('€', '').replace(',', '.').trim();
+          const price = parseFloat(priceText);
+          const image = productCard.querySelector('.product-image').src;
+
+         
+          const product = {
+            id: index,
+            name,
+            price,
+            image
+          };
+          addItemToCart(product);
+        });
+      });
+
+      renderCart();
+      updateCartCount();
+      updateTotal();
+    })();
+  </script>
+
+  
+</body>
+</html>
+
